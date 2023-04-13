@@ -34,7 +34,7 @@ function Navbar() {
           <div className='' >
             <img className='w-32 sm:w-40 md:w-48' src="http://goenkasfashion.com/wp-content/uploads/2022/12/cropped-goenkasfnl2-1024x376.png" />
           </div>
-          <div id='menuitemsdiv' className='hidden lg:block bg-white lg:bg-transparent w-full absolute lg:static sm:top-20 top-[70px] md:top-24 left-0'>
+          <div id='menuitemsdiv' className='hidden lg:block bg-white lg:bg-transparent w-full absolute lg:static sm:top-20 top-[70px] md:top-24 left-0 z-50'>
             {/* nav items */}
             <ul className='lg:flex  h-full justify-center p-5 text-2xl lg:text-xl  items-center text-gray-700 font-semibold'>
               <li className="lg:mx-3 w-full lg:w-auto my-3 border-b-2 lg:border-none "><Link href={"/"} onClick={burgerMenuClose} >Home</Link></li>
