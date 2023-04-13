@@ -24,7 +24,6 @@ function Navbar() {
         menuitemsdiv.classList.add('hidden'))
   }
   return (
-    <>
       <nav className=''>
         <div className=''>
           {/* nav header */}
@@ -60,7 +59,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </>
   )
 }
 
