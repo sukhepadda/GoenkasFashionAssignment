@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='w-full'>
+        <footer className='w-full mt-auto overflow-hidden'>
             <div className='bg-slate-700 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6'>
-                <div className='m-2 w-64'>
+                <div className='m-2 w-56 sm:w-64'>
                     <h1 className='text-slate-100 font-bold text-2xl'>ABERDEEN BAZAR</h1>
                     <p className='text-sm text-slate-200 my-10'>MB 80, RK COMPLEX 1st FLOOR,
                         BERDEEN BAZAR, PORT BLAIR,
@@ -14,7 +14,7 @@ function Footer() {
 
                     <p className='text-slate-200 font-bold text-1xl'> PH NO 9609573939</p>
                 </div>
-                <div className='m-2 w-64'>
+                <div className='m-2 w-56 sm:w-64'>
                     <h1 className='text-slate-100 font-bold text-2xl'>BHATU BASTI</h1>
                     <p className='text-sm text-slate-200 my-10'>GROUND FLOOR,
                         NEAR AXIS BANK, BHATU BASTI,
@@ -24,7 +24,7 @@ function Footer() {
 
                     <p className='text-slate-200 font-bold text-1xl'>PH NO 9609144003</p>
                 </div>
-                <div className='m-2 w-64'>
+                <div className='m-2 w-56 sm:w-64'>
                     <h1 className='text-slate-100 font-bold text-2xl'>BAMBOOFLAT JETTY</h1>
                     <p className='text-sm text-slate-200 my-10'>NEAR BAMBOOFLAT JETTY, BAMBOOFLAT,
                         PORT BLAIR, SOUTH ANDAMAN,
@@ -33,7 +33,7 @@ function Footer() {
 
                     <p className='text-slate-200 font-bold text-1xl'>PH NO 9609017300</p>
                 </div>
-                <div className='m-2 w-64'>
+                <div className='m-2  w-56 sm:w-64'>
                     <h1 className='text-slate-100 font-bold text-2xl'>DURGA MARKET</h1>
                     <p className='text-sm text-slate-200 my-10'>1st FLOOR, NEW DURGA MARKET,
                         MADHUPUR ROAD, DIGLIPUR,
@@ -55,7 +55,7 @@ function Footer() {
                     &#169;2022 Goenkas Fashion
                 </h1>
             </div>
-        </div>
+        </footer>
     )
 }
 
