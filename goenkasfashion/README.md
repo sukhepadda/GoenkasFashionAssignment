@@ -10,10 +10,9 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-#or
-
-hosted link: https://goenkas-fashion-assignment.vercel.app/
 ```
+#or
+hosted link: https://goenkas-fashion-assignment.vercel.app/
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
