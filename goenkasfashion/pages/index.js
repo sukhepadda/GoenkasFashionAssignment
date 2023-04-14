@@ -9,7 +9,7 @@ import ProductCompanies from "@/components/homeComponents/ProductCompanies";
 export default function Home() {
   return (
 
-    <div className='flex flex-col bg-red-400'>
+    <div className='flex flex-col'>
      <Header />
      <LadiesProductCategory />
      <FeaturedProduct />

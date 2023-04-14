@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-/* body::-webkit-scrollbar {
+ body::-webkit-scrollbar {
     display: none;
 }
 
@@ -12,4 +12,10 @@ body {
     scrollbar-width: none;
 }
 
-*/
+.react-images__view{
+    display: flex;
+    justify-content: center;
+}
+.galleryImg{
+    cursor: zoom-in !important;
+}

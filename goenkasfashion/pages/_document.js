@@ -10,7 +10,7 @@ export default function Document() {
         <link rel="apple-touch-icon" href="http://goenkasfashion.com/wp-content/uploads/2022/12/cropped-cropped-goenkasfnl-e1670398784834-180x180.png" />
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        <title>Goenkas Fashion</title>
+
       </Head>
       <Script></Script>
       <body>

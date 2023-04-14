@@ -16,10 +16,10 @@ function Header() {
             <Swiper
                 spaceBetween={0}
                 centeredSlides={true}
-                autoplay={{
-                    delay: 5000,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 5000,
+                //     disableOnInteraction: false,
+                // }}
                 navigation={{
                     clickable:true,
                 }}
@@ -36,9 +36,9 @@ function Header() {
                     <div className='h-[540px] text-4xl text-white text-center grid justify-center items-center bg-black bg-opacity-50'>
                         <div className=''>
 
-                            <h1 className='text-6xl font-bold'>Men's</h1>
-                            <p className='text-2xl font-light my-8'>SPARKY,CAMRO,PARX,PEPE,PARKAVENUE,SIYARAM TURTLE,OXEMBERG,SERO,VANHUESEN,RAYMONDS OTTO,PAN AMERICA,JOCKEY,MINISTER WHITE SIN DENIM,KELYN,STRIDE,BEING HUMAN,LP</p>
-                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300'>View More</button>
+                            <h1 className='text-6xl font-bold mb-4'>Men's</h1>
+                            <p className='text-base w-[80%] m-auto hidden md:block md:text-2xl font-light '>SPARKY,CAMRO,PARX,PEPE,PARKAVENUE,SIYARAM TURTLE,OXEMBERG,SERO,VANHUESEN,RAYMONDS OTTO,PAN AMERICA,JOCKEY,MINISTER WHITE SIN DENIM,KELYN,STRIDE,BEING HUMAN,LP</p>
+                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300 mt-4'>View More</button>
                         </div>
                     </div>
 
@@ -48,9 +48,9 @@ function Header() {
                     <div className='h-[540px] text-4xl text-white text-center grid justify-center items-center bg-black bg-opacity-50'>
                         <div className=''>
 
-                            <h1 className='text-6xl font-bold'>Western</h1>
-                            <p className='text-2xl font-light my-8'>PARI,ZOLA,JALARAM,MASTI MUMBAI,ZUNI & ZUNI, SIZZLER,ROYAL,WESTERN GIRL,D.MARK,LOTUS</p>
-                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300'>View Features</button>
+                            <h1 className='text-6xl font-bold mb-4'>Western</h1>
+                            <p className='text-base w-[80%] m-auto hidden md:block md:text-2xl font-light '>PARI,ZOLA,JALARAM,MASTI MUMBAI,ZUNI & ZUNI, SIZZLER,ROYAL,WESTERN GIRL,D.MARK,LOTUS</p>
+                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300 mt-4'>View Features</button>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -59,9 +59,9 @@ function Header() {
                     <div className='h-[540px] text-4xl text-white text-center grid justify-center items-center bg-black bg-opacity-50'>
                         <div className=''>
 
-                            <h1 className='text-6xl font-bold'>Indian</h1>
-                            <p className='text-2xl font-light my-8'>KURTI, READYMADE SUIT, SAREE,  GIRL’S</p>
-                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300'>Latest Designs</button>
+                            <h1 className='text-6xl font-bold mb-4'>Indian</h1>
+                            <p className='text-base w-[80%] m-auto hidden md:block md:text-2xl font-light '>KURTI, READYMADE SUIT, SAREE,  GIRL’S</p>
+                            <button className='border-4 p-3 hover:bg-blue-300 hover:text-black hover:border-blue-300 text-2xl transition-all ease-in duration-300 mt-4'>Latest Designs</button>
                         </div>
                     </div>
                 </SwiperSlide>

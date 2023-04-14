@@ -13,24 +13,28 @@ import { Autoplay, Navigation } from "swiper";
 
 function LadiesProductCategory() {
   const imgs = [{
+    id: 1,
     img1: "http://goenkasfashion.com/wp-content/uploads/2022/12/western-copy.jpg",
     img2: "http://goenkasfashion.com/wp-content/uploads/2022/12/ug14.jpg",
     btn1: "Western",
     btn2: "Western",
   },
   {
+    id: 2,
     img1: "http://goenkasfashion.com/wp-content/uploads/2022/12/kurta-.jpg",
     img2: "http://goenkasfashion.com/wp-content/uploads/2022/12/kurtaSUIT.jpg",
     btn1: "INDIAN",
     btn2: "INDIAN",
   },
   {
+    id: 3,
     img1: "http://goenkasfashion.com/wp-content/uploads/2022/12/girls.jpg",
     img2: "http://goenkasfashion.com/wp-content/uploads/2022/12/girls21-copy.jpg",
     btn1: "Girls",
     btn2: "Girls",
   },
   {
+    id: 4,
     img1: "http://goenkasfashion.com/wp-content/uploads/2022/12/lanj.jpg",
     img2: "http://goenkasfashion.com/wp-content/uploads/2022/12/ug13.jpg",
     btn1: "Under Garments",
@@ -44,7 +48,7 @@ function LadiesProductCategory() {
         <h1 className='text-4xl font-semibold '>Ladies Product Category</h1>
         <p className='text-base mt-1'>Find best quality products at Goenkas Fashion Stores</p>
       </div>
-      <div className='flex'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
         {
           imgs.map(i => (
 
@@ -63,9 +67,9 @@ function LadiesProductCategory() {
                 Autoplay,
                 Navigation
               ]}
-              className='w-[280px]'
+              className='w-[260px] m-4'
               loop={true}
-
+              key={i.id}
             >
               <SwiperSlide>
                 <img className='h-[370px] w-[280px] absolute z-[-1]' src={i.img1} />
